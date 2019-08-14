@@ -23,6 +23,7 @@
     "@types/googlemaps": "3.37.0"
   },
   "engines": {
-    "node": "10.3.0"
+    "node": "10.3.0",
+    "npm": "6.4.1"
   }
 }
