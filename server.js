@@ -134,13 +134,13 @@ app.listen(port);
 
 console.log('Express listening on port ' + port);
 
-//Open browser
-if (!inContainer && !inAzure) {
-    var opn = require('opn');
+// //Open browser
+// if (!inContainer && !inAzure) {
+    // var opn = require('opn');
 
-    opn('http://localhost:' + port).then(() => {
-        console.log('Browser closed.');
-    });
-}
+    // opn('http://localhost:' + port).then(() => {
+        // console.log('Browser closed.');
+    // });
+// }
 
 
