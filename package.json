@@ -1,16 +1,14 @@
 {
-  "name": "angular-jump-start",
-  "version": "0.0.0",
-  "license": "MIT",
+  "name": "myapp",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.3.0"
+  }
   "scripts": {
-    "ng": "ng",
     "start": "node server.js",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "playground": "angular-playground"
-  },
+	"build": "webpack"
+   },
   "dependencies": {
     "core-js": "^2.5.4",
     "rxjs": "~6.5.2",
